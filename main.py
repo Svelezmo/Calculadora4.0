@@ -9,3 +9,16 @@ def suma (a,b):
 def resta (a,b):
     result = a - b
     return result
+
+def multiplicacion (a,b):
+    result = a*b
+    return result 
+
+def division (numerador, denominador):
+    if(denominador == 0):
+        print("Resultado indeterminado")
+    result = numerador / denominador
+    return result
+    
+num1 = int(input("Ingrese el número 1: "))    
+num2 = int(input("Ingrese el número 2: "))
