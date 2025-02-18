@@ -28,10 +28,10 @@ print("Hola Sebastian, Me gusta el chapil y del rosado")
 
 match operacion:
     case 1:
-        suma(num1, num2)
+        print(suma(num1, num2))
     case 2:
-        resta(num1, num2)
+        print(resta(num1, num2))
     case 3:
-        multiplicacion(num1, num2)
+        print(multiplicacion(num1, num2))
     case 4:
-        division(num1, num2)   
+        print(division(num1, num2))
