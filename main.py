@@ -24,3 +24,14 @@ num1 = int(input("Ingrese el número 1: "))
 num2 = int(input("Ingrese el número 2: "))
 
 print("Hola Esteban ")
+print("Hola Sebastian, Me gusta el chapil y del rosado")
+
+match operacion:
+    case 1:
+        print(suma(num1, num2))
+    case 2:
+        print(resta(num1, num2))
+    case 3:
+        print(multiplicacion(num1, num2))
+    case 4:
+        print(division(num1, num2))
